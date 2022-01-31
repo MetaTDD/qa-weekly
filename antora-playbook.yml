@@ -1,0 +1,14 @@
+site:
+  title: QA周刊
+  start_page: archives::index.adoc
+content:
+  sources:
+  - url: https://github.com/MetaTDD/qa-weekly.git
+    branches: [2022]
+    start_path: 2022
+
+
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true

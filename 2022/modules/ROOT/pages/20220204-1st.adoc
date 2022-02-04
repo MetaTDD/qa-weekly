@@ -11,7 +11,7 @@
 
 哪怕上述条件都相同，每个人长久接触到的不同信息流，长期下来也会形成信息差。
 
-image::assets/images/info.png[信息,align="center"]  
+image::assets/_images/info.png[信息,align="center"]  
 
 所以，这是本周刊创建的初衷。信息差可以在相互的交流分享中变得更加透明，从对方的反馈或信息流中获取到自身所"差"的的信息。
 
@@ -183,12 +183,12 @@ https://publish.twitter.com/?query=https%3A%2F%2Ftwitter.com%2Foasisfeng%2Fstatu
 
 * 如何退出Vim
 
-image::assets/images/quit_vim.jpg[退出Vim,align="center"]  
+image::assets/_images/quit_vim.jpg[退出Vim,align="center"]  
 
 * JS的比较结果
 
-image::assets/images/js_assert.jpg[JS的比较结果,align="center"]  
+image::assets/_images/js_assert.jpg[JS的比较结果,align="center"]  
 
 * Java图书阅读路径
 
-image::assets/images/java_path.jpg[Java读书路径,align="center"]  
+image::assets/_images/java_path.jpg[Java读书路径,align="center"]  

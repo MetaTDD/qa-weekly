@@ -1,3 +1,18 @@
-= 说明
+= QA周刊
 
-QA周刊。
+请通过左侧导航栏浏览每期内容。
+
+== 订阅公众号
+
+image::assets/_images/metatdd_wx.jpg[MetaTDD订阅号,align="center"]  
+
+== 投稿
+
+周刊采用开源托管的方式，欢迎投稿。
+
+* GitHub(https://github.com/MetaTDD/qa-weekly)
+** 提交Issues
+** Fork仓库然后提交PR
+
+* 邮箱
+qa-weekly@metatdd.com

@@ -4,7 +4,7 @@
 
 == 订阅公众号
 
-image::assets/_images/metatdd_wx.jpg[MetaTDD订阅号,align="center"]  
+image::assets/_images/metatdd_wx.png[MetaTDD订阅号,align="center"]  
 
 == 投稿
 

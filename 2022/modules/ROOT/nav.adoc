@@ -1,3 +1,5 @@
 * xref:index.adoc[说明]
 * xref:20220204-1st.adoc[QA周刊第一期]
 * xref:20220213-2nd.adoc[QA周刊第二期]
+* xref:20220213-3rd.adoc[QA周刊第三期]
+

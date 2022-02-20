@@ -1,0 +1,157 @@
+= QA周刊第三期--信息过滤
+
+== 信息过滤
+
+在现实生活中，需要经常收拾和整理，以便在空间和生活上可以更加的舒适。
+
+在数字生活中，免费的资源或迅息灌冲着我们的视野。每每看到不错的内容会将其mark下来，以便以后查阅。但是伴随着时间，这些被mark下来的信息不断堆积，直到后来，(mark)马死了，我们都没有再次的去查看。
+
+数字世界中，无论是订阅号还是APP，都在不断得向我们推送着各种信息，有主动订阅的，也有广告推送的。为了获得我们停留的时间，更是采用各种引人的标题来吸引我们。不知不觉的，我们的时间就被这么碎片化利用了。
+
+在太多的信息内容下，过滤出高质量内容并适当吸收和消化就显得重要了。像生活中的吃灰物品一样，不需要的就要及时清理掉，避免占用过多的个人空间，同时在购买的时候考虑清楚是否是真正需要还是心血来潮。数字物品同样需要及时清理掉用不上，避免每次过长的时间检索，同时也要控制各种订阅，并取消一些不会花时间去看的订阅。
+
+
+image::assets/_images/2022-02-20_19-13.png[网盘容量,align="center"]
+
+
+== 内容
+
+* https://coolshell.cn/articles/22157.html[谈谈公司对员工的监控]
+
+作者阐述了公司对员工的监控分析和原因。
+
+* https://www.getrevue.co/profile/lcomplete[野生架构师]
+
+由lcomplete 每周发送的 newsletter，它分享简短实用的效率方法、优质文章 、编程知识 、实用工具 等。
+
+* https://github.com/spf13/nitro[nitro]
+
+一个用起来比 pprof 更简单的 golang 性能分析工具。
+
+* https://ycombinator.chibicode.com/functional-programming-emojis[functional-programming-emojis]
+
+使用emojis表情理解函数式编程。
+
+* https://zhuanlan.zhihu.com/p/466532702[利用 Vivaldi + 微信读书 + 文件传输助手 + 简悦让你脱离微信体系]
+
+作者介绍了如果希望尽量降低微信对你的影响，但不想脱离微信体系（尤其是公众号）的话，可以试试这个方式。
+
+* https://csdiy.wiki/[CS自学指南]
+
+这是一本计算机的自学指南，也是作者对自己大学三年自学生涯的一个纪念。
+
+* https://deshpandetanmay.medium.com/software-architecture-learning-path-af57e733d036[软件架构学习路径]
+
+介绍了软件架构的学习路径。
+
+
+* https://github.com/csguide-dabai/Programmer-look-at-China[Programmer-look-at-China]
+
+介绍中国各二线以上城市的互联网环境以及生活成本。
+
+* https://github.com/refined-github/refined-github[refined-github]
+
+GitHub插件。简化了GitHub界面并增加了显示空白字符、一键合并冲突修复等。
+
+* https://github.com/lanceliao/china-holiday-calender[china-holiday-calender]
+
+国内一名开发者在 GitHub 上维护的假期日历，在客户端订阅后，可以很方便的用于查看国内各种节假日、调休、补班日历，可供 iOS、Google Calendar、Outlook 等客户端订阅。
+
+* https://www.officeplus.cn/[officeplus]
+
+微软 Office Plus – 来自微软Office团队，免费的 Word、Excel、PPT 模板素材，及 PPT 插件。
+
+* https://zh.javascript.info/[现代javascript教程]
+
+以最新的 JavaScript 标准为基准。通过简单但足够详细的内容，为你讲解从基础到高阶的 JavaScript 相关知识。
+
+* https://bishopfox.com/blog/unredacter-tool-never-pixelation[Never, Ever, Ever Use Pixelation for Redacting Text]
+
+如今在截图上打马赛克已经不再安全（尤其英文数字信息）。技术大佬Dan Petro开发了一个名为Unredacter的工具，成功还原打码文字，并完成了一项解密挑战。
+
+* https://bugmagnet.org/[bugmagnet]
+
+一个探索式测试工具。
+
+* https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/[Include diagrams in your Markdown files with Mermaid]
+
+GitHub支持在Markdown中直接使用Mermaid语法，并由Github进行渲染显示。
+
+
+* https://www.landian.vip/archives/92603.html[谷歌更新Android 13虚拟化框架]
+
+谷歌更新Android 13虚拟化框架 运行Windows 11虚拟机接近原生性能。
+
+
+* https://marketplace.visualstudio.com/items?itemName=netcorext.uuid-generator&WT.mc_id=devcloud-00000-cxa[UUID Generator]
+
+一个VScode上的UUID生成插件。
+
+* https://visualgo.net/zh/[数据结构和算法动态可视化 ]
+
+VisuAlgo 图形可视化学习数据结构与算法,通过图形和动画展示了数据结构与算法。
+
+* https://sichengingermay.com/interviewer/[面试算法，面试官都在考察些什么]
+
+我刷多少 LeetCode 就能去面试 XX 公司了？
+
+* https://www.bilibili.com/video/BV1R44y1H77u/[经验分享：非计算机专业的人如何转行程序员]
+
+宿琛是一个90后的程序员，他以前是学习金融的非程序员，后来爱上了写程序，于是开始了一年离职学习，这里是他的整个经历的分享。
+
+== 语录
+
+以下内容均摘自网络。
+
+* 有时候学习是一种逃避
+
+如果说学习一门新知识或技能与危机能扯上什么关系的话，更像是一种对注意力的转移。说白了，当你专注于学习时，就不会想危机不危机的事了。
+
+
+* 不要买任何盈利性质的保险。 意外、重疾、医疗，这些就够了。
+
+
+* 有一些人，会把我们叫做 “技术男”，大概就是“低情商”、“直男”、“屌丝”、“宅男”的代名词，说技术男的人一般都总会带一种不屑和轻视。所以，我一般也会叫他们“商务男”或“销售男”，也就是油腔滑调，高承诺低对现，慌话连天，套路多多……实话说，比起“技术男”，他们成为渣男的更多……
+
+
+* 当一个人全身心投入某件事后，会产生高度的愉悦和充实感，并在这个过程中忘记时间的流逝。如果你空虚、焦虑或是生活的不如意，就去做能让你进入心流状态的事吧，它会带给你平静与幸福。
+
+
+* 当你（指用户）看到一个bug的时候，不要抱怨测试人员。测试人员已经将bug报告给了相关人员，但是相关人员决定不进行修复它，我们只是不知道而已。
+
+
+* 很多人觉得大城市卷，不是人待的地方，那为什么有那么多人跑到大城市来呢？因为小地方连卷的机会都没有。
+
+
+* 一个天然健康的身体，什么都不用做就会处于愉悦的状态。
+这是读再多书，拥有再多知识、智慧、地位、金钱，都无法换来的。
+
+* 一个运动员不需要满身肌肉，要的是为运动项目优化配置的肌肉和神经结构，这些是训练出来的。举重运动员的肌肉，对篮球、马拉松或游泳运动员而言不仅没用，还是累赘。
+知识也一样。你要按照需要，打造自己的知识结构。这需要一套top down的核心元知识，这样就可以迅速鉴别哪些知识是不需要的。
+
+
+== 图说
+
+* 产品经理使用他们超过6000美元的笔记本用来打开jira。
+
+image::assets/_images/2022-02-20_18-05.png[产品经理使用jira,align="center"]
+
+* 平板会议
+
+image::assets/_images/2022-02-20_18-10.png[平板会议,align="center"]
+
+* MVP产品
+
+image::assets/_images/2022-02-20_18-11.png[平板会议,align="center"]
+
+* HTML的演进
+
+image::assets/_images/2022-02-20_18-12.png[HTML的演进,align="center"]
+
+* 不同行业的思维
+
+image::assets/_images/2022-02-20_18-17.png[HTML的演进,align="center"]
+
+
+
+

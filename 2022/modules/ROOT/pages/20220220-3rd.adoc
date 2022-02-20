@@ -134,23 +134,23 @@ VisuAlgo 图形可视化学习数据结构与算法,通过图形和动画展示�
 
 * 产品经理使用他们超过6000美元的笔记本用来打开jira。
 
-image::assets/_images/2022-02-20_18-05.png[产品经理使用jira,align="center"]
+image::assets/_images/2022-02-20_18-05.jpeg[产品经理使用jira,align="center"]
 
 * 平板会议
 
-image::assets/_images/2022-02-20_18-10.png[平板会议,align="center"]
+image::assets/_images/2022-02-20_18-10.jpeg[平板会议,align="center"]
 
 * MVP产品
 
-image::assets/_images/2022-02-20_18-11.png[平板会议,align="center"]
+image::assets/_images/2022-02-20_18-11.jpeg[mvp产品,align="center"]
 
 * HTML的演进
 
-image::assets/_images/2022-02-20_18-12.png[HTML的演进,align="center"]
+image::assets/_images/2022-02-20_20-12.png[HTML的演进,align="center"]
 
 * 不同行业的思维
 
-image::assets/_images/2022-02-20_18-17.png[HTML的演进,align="center"]
+image::assets/_images/2022-02-20_18-17.jpeg[不同行业的思维,align="center"]
 
 
 

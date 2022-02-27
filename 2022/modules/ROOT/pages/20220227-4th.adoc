@@ -79,6 +79,7 @@ Robot Framework 发布了5.0 beta版本。
 image::assets/_images/2022-02-27_11-44.jpeg[定义不同类型测试人员,align="center"]
 
 * 中彩票
+
 image::assets/_images/2022-02-27_11-27.jpg[中彩票,align="center"]
 
 

@@ -1,0 +1,92 @@
+= QA周刊第三期--测试人员和法医
+
+== 测试和法医
+
+最近分别看完了书籍 https://book.douban.com/subject/35218165/[《非自然死亡》]和日剧 https://movie.douban.com/subject/27140017/[《非自然死亡》]，抛开剧情，我觉得测试人员和法医还是很像的。法医为死者言，测试为bug言。测试人员也像法医一样需要经过一系列的“解剖”来定位软件的缺陷甚至“死因”，最终查找出杀死软件的"元凶"。
+
+image::assets/_images/2022-02-27_11-06.jpeg[非自然死亡,align="center"]
+
+
+== 内容
+
+* https://theartfultester.com/blog/2021/01/05/load-testing-with-gatling-1/[load-testing-with-gatling]
+
+使用gatling来做性能测试。
+
+* https://github.com/jm199504/Financial-Knowledge-Graphs[Financial-Knowledge-Graphs]
+
+GitHub上一份开源的小型金融知识图谱构建流程，可帮助你更好的学习与理解知识图谱的使用。
+
+
+* https://www.uxdatabase.io/[User Experience Database]
+
+国外一个免费开放的产品设计教程，包含了设计基础、产品规划与探索、交互设计、产品原型设计、开发与测试、技能训练等六大模块的相关知识。
+
+* https://modernizing.phodal.com/[代码分析与自动化重构]
+
+如何自己动手设计源码解析、构建代码的代码模型、可视化代码、以及如何进行自动化的重构和守护。
+
+* https://github.com/gristlabs/grist-core[Grist]
+
+
+一款颇为实用的现代化数据表格Grist,不同于其它普通的数据表格，该项目融合了电子表格的灵活性与数据库的稳定性，从用户体验与性能两方面，着重提高互联网用户的办公效率。
+
+该表格支持各类 Python 公式与 Excel 函数，拥有可扩展移植的数据格式、轻便的数据编辑功能，并自带可视化数据面板，开发者还可通过 API 与其它数据源对接。
+
+* https://youtu.be/xvV7OI1jdu4[如何在没钱没时间的情况下学习编码]
+
+该视频介绍了在没钱没时间情况下学习编程的方法。
+
+* https://sethmlarson.dev/blog/utf-8[How does UTF-8 turn “😂” into “F09F9882”?]
+
+介绍了UTF-8的工作原理。
+
+* https://github.com/robotframework/robotframework/blob/master/doc/releasenotes/rf-5.0b1.rst[Robot Framework 5.0 beta 1]
+
+Robot Framework 发布了5.0 beta版本。
+
+
+* https://libraryoftesting.com/[Library of Testing]
+
+测试人员资源库，包含各类测试资源和教程。
+
+
+== 语录
+
+以下均摘自网络。
+
+* 人永远不要有侥幸心理。坏事你不需要全遇到，那些极低概率事件只要遇到一个——离婚、大病、职场排挤，就可以将人拖累几年甚至一辈子。
+人必须一直保持进步的状态，才能拥有抗风险能力。哪怕风险来了，你有能力赚更多钱，甚至有能力东山再起。这才是你最大的财富，而不是稳定，稳定根本不是财富。
+
+
+* 您不能将用户故事拆分为前端和后端。用户故事是可交付的最小价值单元。你不能今天交付前端价值，下周交付后端价值。您的客户会对您大喊大叫，而且有充分的理由！
+
+* DevOps自动化使开发人员能够专注于创新。可重复且不易出错的高效操作提高了开发者的经验。
+
+
+* 我发现教开发人员进行测试比教测试人员编写代码要困难得多。必须发生思维方式的转变，更重要的是，激励因素。开发人员倾向于通过完成事情来激励。测试人员必须接受没有完成 1/2 这样的事情。
+
+
+== 图说
+
+* 定义不同类型的测试人员
+** QA：更多手动和端对端测试;
+** 测试工程师：更多自动化和端对端测试;
+** SET（测试开发）：更多​​自动化单元测试;
+** Unicorn(独角兽）：更多手动单元测试。
+
+
+image::assets/_images/2022-02-27_11-44.jpeg[定义不同类型测试人员,align="center"]
+
+* 中彩票
+image::assets/_images/2022-02-27_11-27.jpg[中彩票,align="center"]
+
+
+* 云职业路线图
+
+image::assets/_images/2022-02-27_11-54.png[云职业路线图,align="center"]
+
+
+* 一个从事软件测试长达25年的时间线。
+
+image::assets/_images/2022-02-27_12-02.png[云职业路线图,align="center"]

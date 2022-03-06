@@ -107,9 +107,10 @@ image::assets/_images/2022-03-06_17-18.jpeg[linux目录含义,align="center"]
 
 * web1 web2 we3的通俗解释
 
-image::assets/_images/2022-03-06_17-20.jpeg[什么是web3,align="center"]
+image::assets/_images/2022-03-06_19-48.jpeg[什么是web3,align="center"]
 
 * git快捷命令表
+
 image::assets/_images/2022-03-06_19-50.jpeg[git快捷命令表,align="center"]
 
 * python各场景下的库和框架

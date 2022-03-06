@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>QA周刊第四期&#8212;&#8203;云原生测试 :: QA周刊</title>
+    <meta name="generator" content="Antora 3.0.0">
+    <link rel="stylesheet" href="../../_/css/site.css">
+    <script>var uiRootPath = '../../_'</script>
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="../..">QA周刊</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Services</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Service A</a>
+            <a class="navbar-item" href="#">Service B</a>
+            <a class="navbar-item" href="#">Service C</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="archives" data-version="2022">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="index.html">导航</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="index.html">导航</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="20220204-1st.html">QA周刊第一期</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="20220213-2nd.html">QA周刊第二期</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="20220220-3rd.html">QA周刊第三期</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="20220227-4th.html">QA周刊第四期</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="20220306-5th.html">QA周刊第五期</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">导航</span>
+    <span class="version">2022</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <a class="title" href="index.html">导航</a>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="index.html">2022</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="index.html">导航</a></li>
+    <li><a href="20220306-5th.html">QA周刊第五期</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="https://github.com/MetaTDD/qa-weekly/edit/2022/2022/modules/ROOT/pages/20220306-5th.adoc">Edit this Page</a></div>
+  </div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">QA周刊第四期&#8212;&#8203;云原生测试</h1>
+<div class="sect1">
+<h2 id="_云原生测试"><a class="anchor" href="#_云原生测试"></a>云原生测试</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>向云原生迁移和采取架构/设计方法来创建云原生应用是当今大势所趋，相比其它软件应用（例如单体架构的应用）的传统测试方法，云原生应用的测试要更复杂。这是因为云原生应用是动态、分布式构建的一组微服务（每个微服务可以独立发布），发布速度更快（通常采用CI/CD和DevOps实践），而且存在难以预测和跟踪的故障模式。</p>
+</div>
+<div class="paragraph">
+<p>云原生技术有利于各组织在公有云、私有云和混合云等新型动态环境中，构建和运行可弹性扩展的应用。云原生的代表技术包括容器、服务网格、微服务、不可变基础设施和声明式 API。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>设计考虑</p>
+<div class="ulist">
+<ul>
+<li>
+<p>高可用设计</p>
+</li>
+<li>
+<p>故障自愈设计 (包括依赖的 k8s 各组件)</p>
+</li>
+<li>
+<p>可扩展和弹性设计</p>
+</li>
+<li>
+<p>可管理资源与实例设计</p>
+</li>
+<li>
+<p>可监控与遥测设计</p>
+</li>
+<li>
+<p>运维操作 (频繁或高影响操作)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>测试考虑</p>
+<div class="ulist">
+<ul>
+<li>
+<p>管控与数据面功能自动化</p>
+</li>
+<li>
+<p>故障自愈自动化 (在 k8s 体系下更为重要)</p>
+</li>
+<li>
+<p>长稳（动态环境）压测（包括依赖的各组件)</p>
+</li>
+<li>
+<p>纵向单级和多级的混沌故障测试</p>
+</li>
+<li>
+<p>全链路性能压测</p>
+</li>
+<li>
+<p>运维操作自动化测试</p>
+</li>
+<li>
+<p>api 层面的模糊测试，保障系统 api 健壮性</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="imageblock text-center unresolved">
+<div class="content">
+<img src="assets/_images/2022-03-01_17-20.png" alt="云原生测试">
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_内容"><a class="anchor" href="#_内容"></a>内容</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="https://dev-tester.com/check-the-effectiveness-of-your-automated-tests/?utm_campaign=check-the-effectiveness-of-your-automated-tests&amp;utm_medium=social_link&amp;utm_source=missinglettr-twitter">检查自动化测试的有效性</a></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>有效的自动化测试可防止更少的缺陷;</p>
+</li>
+<li>
+<p>有效的自动化测试导致更快的部署;</p>
+</li>
+<li>
+<p>有效的自动化测试减少了外部和内部的投诉;</p>
+</li>
+<li>
+<p>有效的自动化测试为每个贡献者建立信心;</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://linkedin.github.io/school-of-sre/">SRE学院</a></p>
+</div>
+<div class="paragraph">
+<p>linkedin出品的SRE入门教程,分Level 101和102两部分。</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>101包括linux基础、Git、linux网络、python、数据库（关系数据库、nosql和大数据的基础介绍）、系统设计、监控度量、安全相关的内容。</p>
+</li>
+<li>
+<p>102包括linux中高级（包括容器技术docker、k8s）、网络、系统设计、排查故障和性能改进、持续集成等内容。</p>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a href="http://dockone.io/">dockone</a></p>
+</li>
+</ol>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>一个分布式技术交流平台。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.lambdatest.com/blog/7-influential-women-in-test-to-follow-today/">7 位有影响力的女性测试</a></p>
+</div>
+<div class="paragraph">
+<p>3 月 8 日庆祝国际妇女节，并感谢女性在许多行业中做出的贡献。所以，这个妇女节，让我们庆祝软件测试领域的女性！</p>
+</div>
+<div class="paragraph">
+<p>女性占整个科技劳动力的 28.8%，这表明过去几年稳步增长。此外，到 2020 年，GAFAM（谷歌、苹果、Facebook、亚马逊、微软）的员工中约有 25% 是女性。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://segmentfault.com/a/1190000041493486">45个 GIT 经典操作场景，专治不会合代码</a></p>
+</div>
+<div class="paragraph">
+<p>整理了45个日常用git合代码的经典操作场景，基本覆盖了工作中的需求。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.testingxperts.com/blog/what-is-integration-testing">集成测试：是什么、类型、工具、执行步骤</a></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>什么是集成测试？</p>
+</li>
+<li>
+<p>为什么要进行集成测试？</p>
+</li>
+<li>
+<p>企业通过集成测试获得什么好处？</p>
+</li>
+<li>
+<p>企业应该知道哪些重要的集成测试方法？</p>
+</li>
+<li>
+<p>执行集成测试的步骤</p>
+</li>
+<li>
+<p>重要的集成测试工具有哪些？</p>
+</li>
+<li>
+<p>结论</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><a href="https://katrinatester.blogspot.com/2017/09/how-to-start-test-coach-role.html">如何开始担任测试教练角色</a></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>避免评估</p>
+</li>
+<li>
+<p>启动交谈</p>
+</li>
+<li>
+<p>寻找焦点</p>
+</li>
+<li>
+<p>衡量成功</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://www.barretlee.com/blog/2020/06/05/programming-course-for-newbee/">一篇写给从未编程过的人的入门教程</a></p>
+</div>
+<div class="paragraph">
+<p>在编程这件事情上，每个人都是内行，每个人也都是外行。</p>
+</div>
+<div class="paragraph">
+<p><a href="https://www.satisfice.com/blog/archives/487354">34 年的测试经验</a></p>
+</div>
+<div class="paragraph">
+<p>在此之前我是一名开发人员，但从那以后我一直是一名测试人员。这让我有一种回顾的心情。</p>
+</div>
+<div class="paragraph">
+<p>软件世界中几乎每个人都认为他们了解测试，但几乎没有人努力研究它。</p>
+</div>
+<div class="paragraph">
+<p>要特别的奉献精神和专注来分析测试的需求，并让自己做好准备去做深度测试应该做的事情——找到每一个重要的问题。</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_语录"><a class="anchor" href="#_语录"></a>语录</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>如果你要做成一件事，永远不要把别人的帮助计算在内。因为那样做一定会失败。</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_图说"><a class="anchor" href="#_图说"></a>图说</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>拷贝粘贴的结果</p>
+</li>
+</ul>
+</div>
+<div class="imageblock text-center unresolved">
+<div class="content">
+<img src="assets/_images/2022-03-06_19-46.jpeg" alt="拷贝粘贴代码">
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Linux各目录的含义</p>
+</li>
+</ul>
+</div>
+<div class="imageblock text-center unresolved">
+<div class="content">
+<img src="assets/_images/2022-03-06_17-18.jpeg" alt="linux目录含义">
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>web1 web2 we3的通俗解释</p>
+</li>
+</ul>
+</div>
+<div class="imageblock text-center unresolved">
+<div class="content">
+<img src="assets/_images/2022-03-06_17-20.jpeg" alt="什么是web3">
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>git快捷命令表
+image::assets/_images/2022-03-06_19-50.jpeg[git快捷命令表,align="center"]</p>
+</li>
+<li>
+<p>python各场景下的库和框架</p>
+</li>
+</ul>
+</div>
+<div class="imageblock text-center unresolved">
+<div class="content">
+<img src="assets/_images/2022-03-06_19-52.jpeg" alt="python各场景下的库和框架">
+</div>
+</div>
+</div>
+</div>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script src="../../_/js/site.js"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+= QA周刊第四期--云原生测试
+
+== 云原生测试
+
+向云原生迁移和采取架构/设计方法来创建云原生应用是当今大势所趋，相比其它软件应用（例如单体架构的应用）的传统测试方法，云原生应用的测试要更复杂。这是因为云原生应用是动态、分布式构建的一组微服务（每个微服务可以独立发布），发布速度更快（通常采用CI/CD和DevOps实践），而且存在难以预测和跟踪的故障模式。
+
+云原生技术有利于各组织在公有云、私有云和混合云等新型动态环境中，构建和运行可弹性扩展的应用。云原生的代表技术包括容器、服务网格、微服务、不可变基础设施和声明式 API。
+
+* 设计考虑
+** 高可用设计
+** 故障自愈设计 (包括依赖的 k8s 各组件)
+** 可扩展和弹性设计
+** 可管理资源与实例设计
+** 可监控与遥测设计
+** 运维操作 (频繁或高影响操作)
+
+* 测试考虑
+** 管控与数据面功能自动化
+** 故障自愈自动化 (在 k8s 体系下更为重要)
+** 长稳（动态环境）压测（包括依赖的各组件)
+** 纵向单级和多级的混沌故障测试
+** 全链路性能压测
+** 运维操作自动化测试
+** api 层面的模糊测试，保障系统 api 健壮性
+
+image::assets/_images/2022-03-01_17-20.png[云原生测试,align="center"]
+
+
+== 内容
+
+https://dev-tester.com/check-the-effectiveness-of-your-automated-tests/?utm_campaign=check-the-effectiveness-of-your-automated-tests&utm_medium=social_link&utm_source=missinglettr-twitter[检查自动化测试的有效性]
+
+* 有效的自动化测试可防止更少的缺陷;
+* 有效的自动化测试导致更快的部署;
+* 有效的自动化测试减少了外部和内部的投诉;
+* 有效的自动化测试为每个贡献者建立信心;
+
+https://linkedin.github.io/school-of-sre/[SRE学院]
+
+linkedin出品的SRE入门教程,分Level 101和102两部分。
+
+* 101包括linux基础、Git、linux网络、python、数据库（关系数据库、nosql和大数据的基础介绍）、系统设计、监控度量、安全相关的内容。
+* 102包括linux中高级（包括容器技术docker、k8s）、网络、系统设计、排查故障和性能改进、持续集成等内容。
+
+. http://dockone.io/[dockone]
+
+一个分布式技术交流平台。
+
+https://www.lambdatest.com/blog/7-influential-women-in-test-to-follow-today/[7 位有影响力的女性测试]
+
+3 月 8 日庆祝国际妇女节，并感谢女性在许多行业中做出的贡献。所以，这个妇女节，让我们庆祝软件测试领域的女性！  
+
+女性占整个科技劳动力的 28.8%，这表明过去几年稳步增长。此外，到 2020 年，GAFAM（谷歌、苹果、Facebook、亚马逊、微软）的员工中约有 25% 是女性。
+
+https://segmentfault.com/a/1190000041493486[45个 GIT 经典操作场景，专治不会合代码]
+
+整理了45个日常用git合代码的经典操作场景，基本覆盖了工作中的需求。
+
+
+https://www.testingxperts.com/blog/what-is-integration-testing[集成测试：是什么、类型、工具、执行步骤]
+
+1. 什么是集成测试？ 
+2. 为什么要进行集成测试？ 
+3. 企业通过集成测试获得什么好处？ 
+4. 企业应该知道哪些重要的集成测试方法？ 
+5. 执行集成测试的步骤 
+6. 重要的集成测试工具有哪些？ 
+7. 结论
+
+
+https://katrinatester.blogspot.com/2017/09/how-to-start-test-coach-role.html[如何开始担任测试教练角色]
+
+* 避免评估
+* 启动交谈
+* 寻找焦点
+* 衡量成功
+
+
+https://www.barretlee.com/blog/2020/06/05/programming-course-for-newbee/[一篇写给从未编程过的人的入门教程]
+
+在编程这件事情上，每个人都是内行，每个人也都是外行。
+
+https://www.satisfice.com/blog/archives/487354[34 年的测试经验]
+
+在此之前我是一名开发人员，但从那以后我一直是一名测试人员。这让我有一种回顾的心情。
+
+软件世界中几乎每个人都认为他们了解测试，但几乎没有人努力研究它。
+
+要特别的奉献精神和专注来分析测试的需求，并让自己做好准备去做深度测试应该做的事情——找到每一个重要的问题。
+
+
+== 语录
+
+* 如果你要做成一件事，永远不要把别人的帮助计算在内。因为那样做一定会失败。
+
+
+== 图说
+
+* 拷贝粘贴的结果
+
+image::assets/_images/2022-03-06_19-46.jpeg[拷贝粘贴代码,align="center"]
+
+* Linux各目录的含义
+
+image::assets/_images/2022-03-06_17-18.jpeg[linux目录含义,align="center"]
+
+
+* web1 web2 we3的通俗解释
+
+image::assets/_images/2022-03-06_17-20.jpeg[什么是web3,align="center"]
+
+* git快捷命令表
+image::assets/_images/2022-03-06_19-50.jpeg[git快捷命令表,align="center"]
+
+* python各场景下的库和框架
+
+image::assets/_images/2022-03-06_19-52.jpeg[python各场景下的库和框架,align="center"]
